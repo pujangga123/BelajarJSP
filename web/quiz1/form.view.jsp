@@ -10,6 +10,7 @@
         <form action="order.jsp" method="post">
             <select name="item">
                 <option value="topi">Topi</option>
+                <option value="topi">Rompi</option>
             </select>
             <input name="qty">
             <button type="submit">Pesan</button>

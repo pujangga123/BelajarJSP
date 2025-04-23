@@ -1,9 +1,15 @@
 <%
-    String nama="";
+    String nama = "";
+    
+    if(request.getParameter("nama")!=null) {
+        session.setAttribute("nama", request.getParameter("nama"));
+    }
+    
     if(session.getAttribute("nama")!=null) {
         nama = session.getAttribute("nama").toString();
-        
-    } else {
+    } 
+    
+    if(nama.equals("")) {
         response.sendRedirect("home.jsp");
     }
     

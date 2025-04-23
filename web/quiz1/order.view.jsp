@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1>Pesan Anda kami terima</h1>
-        
+
         Item: ${item}<br>
         Qty: <c:if test="${qty>10}">
             <span style="color:blue">${qty}</span>
@@ -16,8 +16,7 @@
         <c:if test="${qty<=10}">
             <span style="color:red">${qty}</span>
         </c:if>
-        
-            
-            <a href="form.jsp">Tambah Pesanan</a>
+        <br><br>
+        <a href="form.jsp">Tambah Pesanan</a>
     </body>
 </html>

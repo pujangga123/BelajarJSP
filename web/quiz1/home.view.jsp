@@ -7,8 +7,8 @@
     </head>
     <body>
         <h1>Rumah Baju</h1>
-        <form action="register.jsp">
-            Halo, selamat datang di Rumah Baju.
+        <form action="form.jsp">
+            Halo, selamat datang di Rumah Baju.<br>
             <input name="nama" placeholder="Nama Anda?">
         </form>
         
